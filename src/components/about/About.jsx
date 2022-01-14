@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Skills from "../skills/Skills";
 import Modal from "react-modal";
 import ModalContent from "./modal/ModalContent";
 
@@ -40,16 +39,6 @@ const About = () => {
               </p>
             </div>
             <div className="my_skills">
-              {/*<h3 className="title">What is my skill level?</h3>*/}
-              {/*<p className="desc">*/}
-              {/*  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris*/}
-              {/*  ipsum sit nibh amet egestas tellus.*/}
-              {/*</p>*/}
-              {/*<div className="wrapper">*/}
-              {/*  <div className="dodo_progress">*/}
-              {/*    <Skills />*/}
-              {/*  </div>*/}
-              {/*</div>*/}
               <div className="edina_tm_button">
                 <button
                   type="submit"
@@ -66,7 +55,6 @@ const About = () => {
           <div className="rightpart">
             <div className="image">
               <img src="img/thumbs/26-35.jpg" alt="thumb" />
-
               <div
                 className="main"
                 style={{

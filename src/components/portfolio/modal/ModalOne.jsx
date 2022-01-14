@@ -9,18 +9,18 @@ const ModalOne = () => {
           className="main"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/service/1.jpg"
+              process.env.PUBLIC_URL + "img/portfolio/buggington_wide.png"
             })`,
           }}
-        ></div>
+        />
       </div>
       {/* End big image */}
 
       <div className="description">
-        <h2>Alpha</h2>
+        <h2>Buggington</h2>
         <h4>A bugtracker</h4>
         <p>
-          Alpha is a defect tracking web application, also known as a
+          Buggington is a defect tracking web application, also known as a
           bugtracker. During development we all encounter various issues, have
           different tasks to complete and various milestones to achieve. These
           tasks are what I defined as tickets within the application and a
@@ -49,7 +49,7 @@ const ModalOne = () => {
             <li>
               <p>
                 Project Manager: This User manages and keeps tracks of the
-                overall project and has the Arcjhitectural Vision to manage
+                overall project and has the Architectural Vision to manage
                 projects and see them to completion.
               </p>
             </li>
@@ -86,6 +86,17 @@ const ModalOne = () => {
           to make all changes the role is allowed to, apart from password
           change.
         </p>
+
+        <h2>Technologies</h2>
+        <p>
+          TypeScript, React, React Easy State, Python, Django, Django Rest
+          Framework, Hosting on Heroku.
+        </p>
+      </div>
+      <div className="edina_tm_button">
+        <a target="_blank" href="https://buggington.herokuapp.com/login">
+          Visit Site
+        </a>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import React from "react";
 const achievementsContent = [
   { title: "03", subTitle1: "years of", subTitle2: "Experience" },
   {
-    title: "Harvard CS50",
+    title: "CS50",
     subTitle1: "Web Programming with Python and JavaScript",
     subTitle2: "Certificate",
   },

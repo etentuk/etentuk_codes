@@ -13,7 +13,7 @@ const Address = () => {
             <h3>Email</h3>
             <ul>
               <li>
-                <a href="mailto:ib-themes21@gmail.com">etentuke@gmail.com</a>
+                <a href="mailto:etentuke@gmail.com">etentuke@gmail.com</a>
               </li>
             </ul>
           </div>

@@ -5,7 +5,7 @@ const heroContent = {
   shapeImage: "hero-shape",
   heroImage: "2",
   name: "Emmanuel Etentuk",
-  description: `I'm a Front-End Mobile and Web Developer with over 3 years of experience in this field.`,
+  description: `I'm a Mobile and Web Developer with over 3 years of experience.`,
 };
 
 const Hero = () => {

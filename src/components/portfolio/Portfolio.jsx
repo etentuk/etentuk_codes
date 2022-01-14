@@ -47,7 +47,7 @@ const Portfolio = () => {
             <div className="list_inner" onClick={toggleModalOne}>
               <div className="image">
                 <img
-                  src="img/service/frontend_skills.png"
+                  src="img/portfolio/buggington.png"
                   data-tip
                   data-for="product"
                   alt="skills"
@@ -60,13 +60,10 @@ const Portfolio = () => {
                   className="tooltip-wrapper"
                 >
                   <div>
-                    <h5>Alpha</h5>
-                    <span>A BugTracker</span>
+                    <h5>Buggington</h5>
+                    <span>It's a bugs life</span>
                   </div>
                 </ReactTooltip>
-                <div className="learn_more">
-                  Learn More<span></span>
-                </div>
               </div>
             </div>
           </li>

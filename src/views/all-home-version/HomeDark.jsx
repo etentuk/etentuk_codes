@@ -4,25 +4,13 @@ import Hero from "../../components/slider/Hero";
 import About from "../../components/about/About";
 import Service from "../../components/service/Service";
 import Portfolio from "../../components/portfolio/Portfolio";
-import Testimonial from "../../components/testimonial/Testimonial";
 import Blog from "../../components/blog/Blog";
-import Contact from "../../components/Contact";
 import Address from "../../components/Address";
-import Map from "../../components/Map";
-// import AnimatedCursor from "react-animated-cursor";
 
 const HomeDark = () => {
   document.body.classList.add("dark");
   return (
     <div className="home-light edina_tm_mainpart">
-      {/*<AnimatedCursor*/}
-      {/*  innerSize={8}*/}
-      {/*  outerSize={44}*/}
-      {/*  color="221, 221, 221"*/}
-      {/*  outerAlpha={0.3}*/}
-      {/*  innerScale={0.7}*/}
-      {/*  outerScale={1.4}*/}
-      {/*/>*/}
       <Sidebar />
       {/* End Header */}
       <Hero />
@@ -51,11 +39,17 @@ const HomeDark = () => {
             <p>
               The projects below are fully functional projects which show what I
               can bring to your project or team. They are built to demonstrate
-              my abilities in frontend, security and backend development as well
-              as my growth within the world of software development. All these
+              my abilities in frontend and backend development. All these
               projects have a short about section which gives you more details
               allowing you to demo easily. Contact me for a complete code walk
               through.
+            </p>
+            <p>
+              In my{" "}
+              <a target="_blank" href="https://github.com/etentuk">
+                github
+              </a>{" "}
+              you can find other many other projects which were not hosted.
             </p>
           </div>
           {/* End edian_tm_title */}
@@ -67,8 +61,9 @@ const HomeDark = () => {
           <div className="edina_tm_title">
             <h3>Blog</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              While programming I come across various challenges, I try my best
+              to write about these challenges to help the next person after me
+              as those before me have always done.
             </p>
           </div>
           {/* End edian_tm_title */}
@@ -87,36 +82,6 @@ const HomeDark = () => {
           </div>
           <div className="extra_info">
             <Address />
-          </div>
-          {/* End Address Info */}
-          <div className="mainpart">
-            <div
-              className="left"
-              data-aos="fade-right"
-              data-aos-duration="1200"
-              data-aos-delay="300"
-            >
-              <div className="title">
-                <p>
-                  I'm always open to discussing about development or
-                  partnerships
-                </p>
-              </div>
-              {/* End title */}
-              <div className="fields">
-                <Contact />
-              </div>
-              {/* End Contact Form */}
-            </div>
-            {/*<div*/}
-            {/*  className="right"*/}
-            {/*  data-aos="fade-right"*/}
-            {/*  data-aos-duration="1200"*/}
-            {/*  data-aos-delay="400"*/}
-            {/*>*/}
-            {/*  <Map />*/}
-            {/*</div>*/}
-            {/* End Map */}
           </div>
         </div>
       </div>

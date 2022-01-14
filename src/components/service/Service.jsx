@@ -1,5 +1,4 @@
 import React from "react";
-import Modal from "react-modal";
 import Tilt from "react-parallax-tilt";
 import { SiDjango, SiPython, SiReact, SiTypescript } from "react-icons/all";
 
@@ -18,7 +17,9 @@ const Service = () => {
                   alt=""
                 />
                 <div className="service_title">
-                  <h3>FrontEnd Development</h3>
+                  <h3>
+                    HTML, CSS <br /> & JavaScript
+                  </h3>
                   <p>
                     I use HTML, CSS and JavaScript to build responsive frontends
                     for websites.
@@ -40,13 +41,12 @@ const Service = () => {
                 <div className="service_title">
                   <h3>TypeScript</h3>
                   <p>
-                    With TypeScript I am able to ensure that the data passed
-                    through components is strictly typed preventing unexpected
-                    behaviour within a project.
+                    With TypeScript I am able to avoid errors that would
+                    normally occur during runtime while compiling.
                   </p>
                 </div>
               </div>
-            </div>{" "}
+            </div>
           </Tilt>
         </li>
         {/* End Service Ui/Ux Consultancy */}
@@ -99,7 +99,7 @@ const Service = () => {
                   <h3>Django</h3>
                   <p>
                     I use the Django framework to build backend applications
-                    accessible through Rest API's
+                    accessible through Rest API's.
                   </p>
                 </div>
               </div>
