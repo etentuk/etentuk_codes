@@ -47,7 +47,7 @@ const Portfolio = () => {
             <div className="list_inner" onClick={toggleModalOne}>
               <div className="image">
                 <img
-                  src="img/portfolio/buggington.png"
+                  src="img/portfolio/buggington.PNG"
                   data-tip
                   data-for="product"
                   alt="skills"

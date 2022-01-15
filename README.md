@@ -1,6 +1,5 @@
-# Edina Personal Portfolio React Template
+#  Personal Portfolio
 
-## Description
 Setup Procedure
 ## Project setup
 ```
@@ -22,5 +21,7 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration (vue-cli)
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Description
+One Page portfolio website to show who I am as a developer.
+
+

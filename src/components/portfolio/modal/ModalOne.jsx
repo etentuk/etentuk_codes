@@ -9,7 +9,7 @@ const ModalOne = () => {
           className="main"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/portfolio/buggington_wide.png"
+              process.env.PUBLIC_URL + "img/portfolio/buggington_wide.PNG"
             })`,
           }}
         />
@@ -57,14 +57,16 @@ const ModalOne = () => {
               <p>
                 Developer: Developers will mainly be focused on the task
                 assigned to them, they are in charge of their tickets.They have
-                full access to the Ticket interface.
+                full access to the Ticket interface along with read access to
+                the projects.
               </p>
             </li>
             <li>
               <p>
                 Submitter: These are the QA's who will report based on what they
-                have evaluated from the work done by developers. They only have
-                the ability to create Tickets and Read access to the projects. I
+                have evaluated from the work done by developers. They have the
+                ability to create and edit Tickets as well as Read access to the
+                projects.
               </p>
             </li>
           </ul>
