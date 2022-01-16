@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="img-shape" data-aos="fade-up" data-aos-duration="1200">
           <img
             src={`img/hero/${heroContent.shapeImage}`}
-            srcSet={`img/hero/${heroContent.heroImage}.jpg`}
+            srcSet={`img/hero/${heroContent.heroImage}.jpeg`}
             alt="hero image"
           />
         </div>
@@ -52,7 +52,11 @@ const Hero = () => {
             data-aos-duration="1200"
             data-aos-delay="400"
           >
-            <a href="img/cv.png" download className="color">
+            <a
+              href="https://drive.google.com/uc?id=1Q8TcaS7guYB2SkWJGo7JrMc0-_kVd5Dm&export=download"
+              download
+              className="color"
+            >
               Download CV
             </a>
           </div>

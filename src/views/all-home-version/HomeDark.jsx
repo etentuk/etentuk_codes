@@ -61,9 +61,9 @@ const HomeDark = () => {
           <div className="edina_tm_title">
             <h3>Blog</h3>
             <p>
-              While programming I come across various challenges, I try my best
-              to write about these challenges to help the next person after me
-              as those before me have always done.
+              While programming I come across various challenges, I write about
+              these challenges to help the next person after me as those before
+              me have always done.
             </p>
           </div>
           {/* End edian_tm_title */}
